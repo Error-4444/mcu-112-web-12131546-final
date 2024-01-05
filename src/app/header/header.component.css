@@ -1,3 +1,12 @@
 header {
   background-color: #5cb85c;
+  text-align: center;
+}
+
+header h1 {
+  color: white;
+}
+
+header p {
+  color: white;
 }
