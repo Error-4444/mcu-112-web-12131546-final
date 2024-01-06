@@ -1,7 +1,6 @@
 nav {
   display: flex;
   justify-content: space-between;
-  cursor: pointer;
 }
 
 nav > a {
@@ -13,6 +12,7 @@ nav > a {
   text-decoration: none;
   margin-top: 10px;
   margin-bottom: -10px;
+  cursor: pointer;
 }
 
 nav > ul {
@@ -24,6 +24,7 @@ nav > ul {
 nav > ul li {
   margin-left: 20px;
   color: rgba(0, 0, 0, 0.3);
+  cursor: pointer;
 }
 
 nav > ul li:hover {
