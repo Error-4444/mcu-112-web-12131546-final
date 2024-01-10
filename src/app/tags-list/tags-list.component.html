@@ -1,6 +1,2 @@
 <p>Popular Tags</p>
-<div class="list">
-  <span>enim</span>
-  <span>repellat</span>
-  <span>est</span>
-</div>
+<app-tag *ngFor="let tag of tags" [name]="tag"></app-tag>
