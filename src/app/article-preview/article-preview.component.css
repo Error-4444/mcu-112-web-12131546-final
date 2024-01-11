@@ -41,7 +41,7 @@ span.date {
 }
 
 button {
-  bottom: 1px solid #5cb85c;
+  border: 1px solid #5cb85c;
   border-radius: 0.2rem;
   padding: 0.25rem 0.5rem;
   color: #5cb85c;
@@ -65,7 +65,7 @@ div.content > p {
   color: #999;
   margin-top: 0;
   margin-bottom: 1.5rem;
-  line-height: 1.5rem;
+  line-height: 1.3rem;
 }
 
 div.footer {
