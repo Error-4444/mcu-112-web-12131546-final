@@ -1,4 +1,4 @@
-import { Component, HostBinding } from '@angular/core';
+import { Component, HostBinding, Input } from '@angular/core';
 import { TagComponent } from '../tag/tag.component';
 import { NgFor } from '@angular/common';
 
@@ -11,5 +11,5 @@ import { NgFor } from '@angular/common';
 })
 export class TagsListComponent {
   @HostBinding('class') class = 'tags-list';
-  tags = ['enim', 'repellat', 'est', 'eos'];
+  @Input() tags!: string[];
 }
